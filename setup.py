@@ -9,11 +9,11 @@ setup(
     name='django-mailer-2',
     version=get_version(),
     description=("A reusable Django app for queueing the sending of email "
-                 "(forked aaloy on a frok from James Tauber's django-mailer)"),
+                 "(forked of APSL/django-mailer-2, which is unmaintained)"),
     long_description=open('docs/usage.rst').read(),
-    author='Antoni Aloy',
-    author_email='antoni.aloy@gmail.com',
-    url='http://github.com/APSL/django-mailer-2',
+    author='Maykin Media',
+    author_email='info@maykinmedia.nl',
+    url='https://github.com/maykinmedia/django-mailer-2',
     install_requires=["pyzmail", ],
     packages=[
         'django_mailer',
@@ -22,7 +22,7 @@ setup(
     ],
     include_package_data=True,
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
         'License :: OSI Approved :: MIT License',
